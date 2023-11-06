@@ -2,6 +2,7 @@
   max-width: 1440px;
   background-color: #fff;
   background-repeat: repeat-y;
+  border: 0.1rem solid red
 }
 
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
@@ -17,6 +18,8 @@
 }
 
 body {font-family: "Camphor Pro", sans-serif;}
+
+
 
 .img-fluid {width: 100%; height: auto;}
 
@@ -44,7 +47,7 @@ body {font-family: "Camphor Pro", sans-serif;}
 .p-center {
   font-size: 1.1rem;
   text-align: center;
-  padding: 20px;
+
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   line-height: 1.3;
@@ -54,7 +57,7 @@ body {font-family: "Camphor Pro", sans-serif;}
 .p-aviso {
   font-size: 1rem;
   text-align: center;
-  padding: 20px;
+ 
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   overflow-wrap: break-word;
@@ -66,25 +69,10 @@ body {font-family: "Camphor Pro", sans-serif;}
 .txt-cinza{color:#BEBEBE;}
 .txt-orange{color: #FFAF5B;}
 
-.boxcolor {
-  background-color: #fff;
-}
+.boxcolor {background-color: #fff;}
+p.txt-branco-preto {color: #fff;}
 
-.boxcolor2 {
-  background-color: #fff;
-}
-
-.boxcolor3 {
-  background-color: #05061a;
-}
-
-p.txt-branco-preto {
-  color: #fff;
-}
-
-.spacing{
-  padding: 3rem;
-}
+.spacing{padding: 3rem;}
 
 /*************************************************** Grid *************************************/
 
@@ -104,6 +92,11 @@ p.txt-branco-preto {
 display: none;
 }
 
+.grid-second-xiaomi{
+  grid-template-columns: repeat( minmax(100px, 1fr));
+	grid-auto-flow: column;
+  display: grid;
+}
 /**************************************************** Mobile ************************************************/
 
 @media only screen and (max-width: 920px) {
