@@ -73,6 +73,10 @@ body {font-family: "Camphor Pro", sans-serif;}
 p.txt-branco-preto {color: #fff;}
 
 .spacing{padding: 3rem;}
+.spacing-img{
+  padding: 9rem;
+  margin-top: -6rem;
+}
 
 /*************************************************** Grid *************************************/
 
@@ -92,11 +96,6 @@ p.txt-branco-preto {color: #fff;}
 display: none;
 }
 
-.grid-second-xiaomi{
-  grid-template-columns: repeat( minmax(100px, 1fr));
-	grid-auto-flow: column;
-  display: grid;
-}
 /**************************************************** Mobile ************************************************/
 
 @media only screen and (max-width: 920px) {
@@ -118,15 +117,13 @@ display: none;
     padding: 1rem;
   }
 
-
-/**************************************** Grind Mobile ********************************/
-
-
-
-/************************************************************************************/
-
   .spacing{
   padding: 1.5rem;
+  }
+
+  .spacing-img{
+    padding: 1.5rem;
+    margin: auto;
   }
 
   p.txt-branco-preto {
@@ -137,14 +134,14 @@ display: none;
   text-align: center;
   font-size: 2rem;
   font-weight: 500;
-  font-family: "Camphor Pro", sans-serif;
+  font-family: "Xiaomi Brand", sans-serif;
   position: relative;
   line-height: 1;
   }
 
   .subtitle {
   text-align: center;
-  font-size: 1.09rem;
+  font-size: 1.4rem;
   font-weight: 700;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
@@ -154,7 +151,7 @@ display: none;
   .p-center {
   font-size: 0.99rem;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   overflow-wrap: break-word;
@@ -163,7 +160,7 @@ display: none;
   .p-aviso {
   font-size: 0.8rem;
   text-align: center;
-  padding: 20px;
+
   font-family: "Camphor Pro", sans-serif;
   position: relative;
   }
